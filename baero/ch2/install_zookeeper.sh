@@ -16,7 +16,7 @@ mkdir -p "$config_file_path"
 cd "$config_file_path"
 cat << EOF > "$config_file_name"
 tickTime=2000
-dataDir="$data_dir"
+dataDir=$data_dir
 clientPort=2181
 EOF
 
